@@ -16,6 +16,7 @@ class Api {
         }).then(res => res.json())
             .then(res => res)
             .catch(err => console.log(err))
+            location.reload()
     }
 
     static async editarCliente(data, id) {
@@ -27,6 +28,7 @@ class Api {
             .then(res => res)
             .catch(err => console.log(err))
         console.log(baseUrl)
+        location.reload()
     }
 
     static async deletarCliente(id) {
@@ -34,6 +36,7 @@ class Api {
             method: "DELETE",
             headers: { "Content-Type": "application/json" }
         })
+        location.reload()
     }
 
 }

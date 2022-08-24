@@ -17,6 +17,7 @@ async function deletarDadosCliente(){
                 btnDeletar.addEventListener("click", (events)=>{
                     events.preventDefault()
                     Api.deletarCliente(elem.id)
+                    
                 })
             }
         })

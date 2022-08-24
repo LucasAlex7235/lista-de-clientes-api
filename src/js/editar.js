@@ -55,7 +55,7 @@ async function editarDadosCliente() {
                             "endereco": {
                                 "estado": `${estado.value}`,
                                 "cidade": `${cidade.value}`,
-                                "bairro": `${bairro}`,
+                                "bairro": `${bairro.value}`,
                                 "numero": `${numero.value}`,
                                 "rua": `${rua.value}`,
                                 "cep": `${cep.value}`
