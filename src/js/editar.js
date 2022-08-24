@@ -72,12 +72,3 @@ async function editarDadosCliente() {
 
 }
 editarDadosCliente()
-
-
-
-const btnBusca = document.querySelector("#btnBuscar")
-const btnAtualizar = document.querySelector("#btnAtualizar")
-const selectClientes = document.querySelector("#clientesNomes")
-
-
-
